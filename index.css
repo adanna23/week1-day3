@@ -1,0 +1,252 @@
+@import url(reset.css);
+body {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+/* FONTS */
+
+h1 {
+    /*Intro Text*/
+    font-family: Georgia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 110px;
+}
+
+h2 {
+    /*Page Title*/
+    font-family: Georgia;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+h3 {
+    /*Show Date*/
+    font-family: Georgia;
+    font-weight: 2;
+    font-style: normal;
+    font-size: 24px;
+}
+
+p {
+    /*Body Text*/
+    font-family: Roboto, sans-serif;
+    font-weight: 0.5;
+    font-size: 20px;
+    line-height: 280%;
+}
+
+h4 {
+    /*Show Title*/
+    font-family: Georgia;
+    font-weight: 0.5;
+    font-weight: 1;
+    font-style: normal;
+    font-size: 24px;
+    padding-bottom: 2.2%;
+}
+
+h5 {
+    /*Title Bottom Nav*/
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+/* MAIN ELEMENTS */
+
+.top {
+    padding-top: 1.2%;
+    padding-left: 7.3%;
+    padding-right: 7.3%;
+    background-color: black;
+    color: white;
+}
+
+.global_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.global_nav .page_links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 700px;
+}
+
+.global_nav .page_links li {
+    display: inline-block;
+    position: relative;
+}
+
+.global_nav .page_links li a {
+    color: white;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.global_nav .page_links li a:hover {
+    color: #0eabf3;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.intro_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle {
+    padding-top: 8%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: white;
+    color: black;
+    padding-bottom: 20%;
+}
+
+.rectangle {
+    height: 60px;
+    width: 100%;
+    border-color: black;
+    border-style: double;
+    background-color: rgb(182, 238, 252);
+    padding-left: 6.5%;
+    padding-top: 0.8%;
+}
+
+.schedule {
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.space {
+    height: 225px;
+    width: 100%;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.show_image1 {
+    float: left;
+    background-image: url(assets/sample.png);
+    width: 25%;
+    height: 220px;
+}
+
+.show_image2 {
+    float: left;
+    background-image: url(assets/img1.jpg);
+    background-position: center;
+    width: 25%;
+    height: 220px;
+}
+
+.show_image3 {
+    float: left;
+    background-image: url(assets/img2.jpg);
+    background-position: center;
+    width: 25%;
+    height: 220px;
+}
+
+.show_image4 {
+    float: left;
+    background-image: url(assets/img3.jpg);
+    background-position: center;
+    width: 25%;
+    height: 220px;
+}
+
+.show_info {
+    float: left;
+    width: 58%;
+    height: 220px;
+    padding-left: 7%;
+}
+
+.read_more {
+    float: left;
+    width: 17%;
+    height: 220px;
+    padding-top: 8.5%;
+}
+
+.button {
+    height: 60px;
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(250, 184, 60);
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.bottom {
+    color: white;
+    padding-top: 8%;
+    padding-left: 7.3%;
+    padding-right: 7.3%;
+    background-color: black;
+}
+
+.map {
+    float: left;
+    width: 25%;
+    height: 400px;
+    background-image: url(assets/map.PNG);
+}
+
+.contact {
+    float: left;
+    width: 35%;
+    height: 400px;
+    padding-left: 8%;
+}
+
+.shows {
+    float: left;
+    width: 20%;
+    height: 400px;
+    padding-left: 5%;
+}
+
+.social {
+    float: left;
+    width: 20%;
+    height: 400px;
+    padding-left: 8%;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 3%;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+}
